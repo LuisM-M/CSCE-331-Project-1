@@ -1,0 +1,201 @@
+/* BACKGROUND OF THE WHOLE CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://people.tamu.edu/~luis.e.martinez/main.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color:#000;
+}
+
+
+
+.main{
+    max-width: 1200px;
+}
+
+/************************* index.html ********************/
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+.prof{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(70%, 25%);  
+}
+
+.git{
+  background-color: #f272dd;
+  border: none;
+  color: rgb(3, 3, 3);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 550px 350px;
+  cursor: pointer;
+
+}
+
+.short{
+    text-align: justify;
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    padding-right: 5%;
+    text-indent: 50px;
+    color: white;
+}
+
+.short p{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/********************** about.html **************************/
+
+.text{
+    
+    text-align: justify;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    padding-right: 40%;
+    text-indent: 50px;
+    color: white;
+    
+}
+/* TAMU LOGO*/
+.tamu{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(250%, 50%); 
+}   
+
+/************************* qualifications.html ******************/
+
+/*resume aka image */
+.res{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(20%, 10%);  
+}
+
+.skill{
+    font-size: 1.5em;
+    text-align: justify;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    padding-left: 40%;
+    text-indent: 50px;
+    color: white;   
+}
+
+/************************* portfolio.html ********************/
+
+.proj{
+    text-align: justify;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    padding-right: 40%;
+    text-indent: 50px;
+    color: white;   
+}
+
+/* ai4all LOGO*/
+.ai{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(500%, 100%); 
+}
+/* tamu HACK LOGO*/
+.th{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(600%, 200%); 
+}   
+
+/************************** service.html ********************/
+
+.clubs{
+    text-align: justify;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    padding-right: 40%;
+    text-indent: 50px;
+    color: white;   
+}
+/* ahic LOGO*/
+.ahic{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(600%, 100%);  
+}
+
+/* LMU LOGO*/
+.lmu{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(350%, 365%);  
+}
+
+/* TAMU DATATHON LOGO*/
+.td{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(600%, 70%);  
+}

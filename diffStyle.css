@@ -1,0 +1,223 @@
+/* BACKGROUND OF THE WHOLE CSS */
+*{
+    margin: 10;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-image:linear-gradient(rgba(167, 154, 154, 0.5),rgba(0,0,0,0.5)), url(https://people.tamu.edu/~luis.e.martinez/whitebg2.jpg);
+    height: 300vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color:#000;
+}
+
+
+
+.main{
+    max-width: 1200px;
+}
+/**************************** index.html**************88*/
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-100%, -50%);
+    
+}
+
+.title h1{
+    color: black;
+    font-size: 150px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.prof{
+    opacity: 0.80;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(150%, 150%);  
+}
+
+.git{
+    background-color: #8477e5;
+    border: none;
+    color: rgb(3, 3, 3);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 550px 350px;
+    cursor: pointer;
+  
+  }
+
+  .short{
+    text-align: justify;
+    position: absolute;
+    top: 91%;
+    left: 40%;
+    padding-right: 5%;
+    
+    color: black;
+}
+
+.short p{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  /************************** about.html ***************/
+
+.text{
+
+    text-align: justify;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    padding-right: 10%;
+    text-indent: 50px;
+    color: black;
+}
+
+.text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+/* TAMU LOGO*/
+.tamu{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(120%, 200%); 
+}   
+
+/************************* qualifications.html ******************/
+
+/*resume aka image */
+.res{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(85%, 70%);  
+}
+
+.skill{
+    font-size: 2.5em;
+    text-align: justify;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    padding-right: 15%;
+    
+    color: black;   
+}
+
+.skill p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/************************* portfolio.html ********************/
+
+/* projects */
+.proj{
+    text-align: justify;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    padding-right: 15%;
+    text-indent: 50px;
+    color: black;   
+}
+
+.proj p {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* ai4all LOGO*/
+.ai{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(-10%, 100%); 
+}
+/* tamu HACK LOGO*/
+.th{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(560%, 100%); 
+}   
+
+/************************** service.html ********************/
+
+.clubs{
+    text-align: justify;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    padding-right: 5%;
+    text-indent: 50px;
+    color: black;   
+}
+
+.clubs p{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ahic LOGO*/
+.ahic{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(10%, 230%);  
+}
+
+
+/* LMU LOGO*/
+.lmu{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(5%, 575%);  
+}
+
+/* TAMU DATATHON LOGO*/
+.td{
+    opacity: 0.99;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(25%, 70%);  
+}
+
